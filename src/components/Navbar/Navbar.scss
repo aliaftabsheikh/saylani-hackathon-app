@@ -1,0 +1,57 @@
+body{
+    background-color: #000;
+}
+.app__navbar{
+    color : white;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.app__navbar > div{
+    margin: 10px;
+}
+
+
+
+.app__navbar-logo {
+    width: 200px;
+}
+
+
+
+.app__navbar-items{
+    display: flex;
+    color: #a1a5b0;
+}
+
+.app__navbar-items > p {
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.app__navbar-Button{
+    display: flex;
+    flex: 0.5;
+    justify-content: space-evenly;
+}
+
+
+.app__navbar-logginButton, 
+.app__navbar-signUpButton{
+    background: linear-gradient(to right , #59f9b7, #66feea);
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+
+.app__navbar-Current-Course-Button{
+    background: linear-gradient(to right , #e3352b, #b74f3d);
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: rgb(216, 213, 213);
+    cursor: pointer;
+}
