@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo192.png";
 import saylani from "../../assets/Saylani-logo.png";
 
@@ -17,9 +17,9 @@ const Navbar = () => {
       {/* //! Navbar Items */}
 
       <div className="app__navbar-items">
-        <p>Home</p>
-        <p>New Courses</p>
-        <p>Apply</p>
+        <Link className="app__navbar-item" to="/"><p>Home</p></Link>
+        <Link className="app__navbar-item" to="/current-courses"><p>New Courses</p></Link>
+       <Link className="app__navbar-item" to="/apply"><p>Apply</p></Link>
       </div>
 
       <div className="app__navbar-Button">

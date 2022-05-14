@@ -1,6 +1,4 @@
-body{
-    background-color: #000;
-}
+
 .app__navbar{
     color : white;
     height: 100px;
@@ -24,12 +22,20 @@ body{
 .app__navbar-items{
     display: flex;
     color: #a1a5b0;
+
+    .app__navbar-item{
+        text-decoration: none;
+        
+        p{
+            margin: 30px;
+            cursor: pointer;
+            color: white;
+            
+    }
+    }
+   
 }
 
-.app__navbar-items > p {
-    margin: 30px;
-    cursor: pointer;
-}
 
 
 .app__navbar-Button{
@@ -42,7 +48,7 @@ body{
 .app__navbar-logginButton, 
 .app__navbar-signUpButton{
     background: linear-gradient(to right , #59f9b7, #66feea);
-    padding: 15px 40px;
+    padding:10px 35px;
     border-radius: 50px;
     color: black;
     cursor: pointer;
@@ -50,7 +56,7 @@ body{
 
 .app__navbar-Current-Course-Button{
     background: linear-gradient(to right , #e3352b, #b74f3d);
-    padding: 15px 40px;
+    padding: 13px 30px;
     border-radius: 50px;
     color: rgb(216, 213, 213);
     cursor: pointer;
