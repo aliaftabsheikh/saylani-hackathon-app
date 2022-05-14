@@ -1,63 +1,55 @@
-
-.app__navbar{
-    color : white;
-    height: 100px;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+.app__navbar {
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.app__navbar > div{
-    margin: 10px;
+.app__navbar > div {
+  margin: 10px;
 }
-
-
 
 .app__navbar-logo {
-    width: 200px;
+  width: 200px;
 }
 
+.app__navbar-items {
+  display: flex;
+  color: #a1a5b0;
 
+  .app__navbar-item {
+    text-decoration: none;
 
-.app__navbar-items{
-    display: flex;
-    color: #a1a5b0;
-
-    .app__navbar-item{
-        text-decoration: none;
-        
-        p{
-            margin: 30px;
-            cursor: pointer;
-            color: white;
-            
+    p {
+      margin: 30px;
+      cursor: pointer;
+      color: white;
     }
-    }
-   
+  }
 }
 
-
-
-.app__navbar-Button{
-    display: flex;
-    flex: 0.5;
-    justify-content: space-evenly;
+.app__navbar-Button {
+  display: flex;
+  flex: 0.5;
+  justify-content: space-evenly;
 }
 
-
-.app__navbar-logginButton, 
-.app__navbar-signUpButton{
-    background: linear-gradient(to right , #59f9b7, #66feea);
-    padding:10px 35px;
-    border-radius: 50px;
-    color: black;
-    cursor: pointer;
+.app__navbar-logginButton,
+.app__navbar-signUpButton {
+  background: linear-gradient(to right, #59f9b7, #66feea);
+  padding: 10px 35px;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.app__navbar-Current-Course-Button{
-    background: linear-gradient(to right , #e3352b, #b74f3d);
-    padding: 13px 30px;
-    border-radius: 50px;
-    color: rgb(216, 213, 213);
-    cursor: pointer;
+.app__navbar-Current-Course-Button {
+  background: linear-gradient(to right, #e3352b, #b74f3d);
+  padding: 13px 30px;
+  border-radius: 50px;
+  color: rgb(216, 213, 213);
+  cursor: pointer;
+  text-decoration: none;
 }

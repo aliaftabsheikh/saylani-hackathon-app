@@ -5,6 +5,7 @@ import CCA from "../assets/CCA.jpg"
 import CCNA from "../assets/CCNA.jpg"
 import Python from "../assets/Python.jpg"
 import SDE from "../assets/SDE.jpg"
+import CCO from "../assets/CCO.jpg"
 
 
 export default{
@@ -15,4 +16,5 @@ export default{
     CCNA,
     Python,
     SDE,
+    CCO
 }
