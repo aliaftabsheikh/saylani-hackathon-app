@@ -81,7 +81,6 @@ const LoginAuth = (email, password, navigate) => {
                     text: ' Password Not Matched',
                   })
             }
-            // swal(error.message);
         });
     }
 
